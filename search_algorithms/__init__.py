@@ -1,1 +1,1 @@
-# Initialize the search algorithms module
+from .search_algorithms import SearchAlgorithms
