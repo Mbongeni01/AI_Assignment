@@ -42,5 +42,3 @@ def train_bnn_model(data_path, input_dim, hidden_dim, output_dim, epochs=100):
     torch.save(model, f"{data_path}_model.pt")
     print(f"Model saved to {data_path}_model.pt")
 
-# Example usage:
-# train_bnn_model('data/15_puzzle', 16, 50, 1)
