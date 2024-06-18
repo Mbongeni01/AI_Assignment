@@ -74,3 +74,8 @@ class DataGenerator:
                                                         problem_size,
                                                         num_samples)
             self.save_data(x_data, y_data, filename)
+
+
+if __name__ == "__main__":
+    data_generator = DataGenerator()
+    data_generator.generate_and_save_all(1000)
